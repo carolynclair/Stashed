@@ -1,8 +1,8 @@
-## Interface: 120105, 120100, 120007
+## Interface: 120105, 120100, 120007, 16001
 ## Title: Stashed
 ## Notes: Item tooltips that tell you where the rest of it is: other characters, banks, Warband bank and mail. Plus account-wide item search.
 ## Author: YourName
-## Version: 1.0.0
+## Version: 1.0.1
 ## Category: Inventory
 ## SavedVariables: StashedDB
 ## IconTexture: Interface\Icons\INV_Misc_Bag_10_Blue

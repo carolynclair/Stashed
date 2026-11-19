@@ -20,6 +20,9 @@ Owned                      15  (you 12, alts 3)
 - **Zero dependencies**, lightweight, nothing runs in combat.
 
 ## Setup
+Stashed 1.0.1 supports Retail and WoW Forever. Use the same ZIP for either client.
+For Forever, extract the `Stashed` folder into `_forever_/Interface/AddOns`.
+
 Log in on each character once, and open your bank once to record the Warband bank. That's it.
 
 ## Commands

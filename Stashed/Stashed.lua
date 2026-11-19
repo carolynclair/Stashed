@@ -2,7 +2,7 @@
   Stashed - "Where's the rest of this item?"
   Account-wide item locations in your tooltips and a searchable window.
 
-  Design notes (Midnight / 12.x):
+  Design notes (Retail and Forever):
   * Only touches item/container data, never combat data, so Secret Values
     are not a concern outside of a defensive guard on tooltip data.
   * Every scan of a bank-type container is validated against the free-slot
@@ -801,7 +801,7 @@ ev:SetScript("OnEvent", function(_, event, arg1)
     elseif event == "PLAYER_INTERACTION_MANAGER_FRAME_SHOW"
         or event == "PLAYER_INTERACTION_MANAGER_FRAME_HIDE" then
         local P = Enum and Enum.PlayerInteractionType
-        if P and (arg1 == P.Banker or arg1 == P.AccountBanker) then
+        if P and arg1 and (arg1 == P.Banker or arg1 == P.CharacterBanker or arg1 == P.AccountBanker) then
             if event:find("SHOW") then
                 bankOpen = true
                 QueueScan()
