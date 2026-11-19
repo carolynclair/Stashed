@@ -1,0 +1,13 @@
+## Interface: 120105, 120100, 120007
+## Title: Stashed
+## Notes: Item tooltips that tell you where the rest of it is: other characters, banks, Warband bank and mail. Plus account-wide item search.
+## Author: YourName
+## Version: 1.0.0
+## Category: Inventory
+## SavedVariables: StashedDB
+## IconTexture: Interface\Icons\INV_Misc_Bag_10_Blue
+## AddonCompartmentFunc: Stashed_OnCompartmentClick
+## AddonCompartmentFuncOnEnter: Stashed_OnCompartmentEnter
+## AddonCompartmentFuncOnLeave: Stashed_OnCompartmentLeave
+
+Stashed.lua
